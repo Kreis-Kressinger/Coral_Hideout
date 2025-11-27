@@ -1,0 +1,16 @@
+.creator{
+    font-size: 20px;
+    position: absolute;
+    top: 55px;
+    left: 45%;
+    color: #5D2A42;
+    text-decoration: underline;
+}
+
+.mainTitle{
+    position: absolute;
+    left: 35%;
+    top: 10px;
+    font-size: 50px;
+    color: #5D2A42;
+}

@@ -1,0 +1,171 @@
+body {
+    background-color: #FFDCCC;
+}
+
+.inputURL {
+    background-color: #FCB1A6;
+    width: fit-content;
+    height: fit-content;
+    font-size: 25px;
+    border: none;
+    position: static;
+    left: 5px;
+    top: 5px;
+    display: inline-flex;
+    border-radius: 10px;
+    transition: all .5s;
+}
+
+.inputURL::placeholder {
+    color: #5D2A42;
+    opacity: 0.7;
+}
+
+.inputURL:hover {
+    box-shadow: 0px 8px 16px 0px #5D2A42;
+}
+
+.inputURL:focus {
+    outline: none;
+    border: none;
+    box-shadow: 0px 4px 6px 0px #5D2A42;
+}
+
+.addButton {
+    color: #5D2A42;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #FCB1A6;
+    border: solid #FB6376 1px;
+    width: fit-content;
+    height: fit-content; 
+    text-align: center;
+    font-size: 25px;
+    cursor: pointer;
+    position: static;
+    border-radius: 10px;
+    transition: .2s;
+}
+
+.addButton:active {
+    background-color: #FB6376;
+}
+
+.hideButton:active {
+    background-color: #FB6376;
+}
+
+.hideButtonLeft:active {
+    background-color: #FB6376;
+}
+
+
+.bookmarks {
+    font-size: 35px;
+    border: solid #5D2A42 3px;
+    background-color:#FCB1A6;
+    color: #5D2A42;
+    width: fit-content;
+    height: fit-content;
+    text-align: center;
+    margin-bottom: 5px;
+    display: inline-flex;
+    position: static;
+    left: 5px;
+    border-bottom-left-radius: 15px;
+    border-top-left-radius: 15px;
+    text-decoration: none;
+    transition: all .3s;
+    }
+
+.bookmarkListElement {
+    list-style-type: none;
+    position: static;
+    left: 5px;
+    list-style-type: none;
+}
+
+.bookmarkList {
+    position: static;
+    left: 5px;
+    padding-left: 0px;
+}
+
+.deleteButtons {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #5D2A42;
+    border: solid #5D2A42 3px;
+    width: fit-content;
+    height: fit-content; 
+    text-align: center;
+    font-size: 33px;
+    color: #FB6376;
+    cursor: pointer;
+    border-left: none;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    transition: all .2s;
+}
+
+.deleteButtons:hover {
+  color: #ff4e63;
+  box-shadow: 0 5px 25px #5D2A42;
+}
+
+.bookmarks:hover {
+  color: #FB6376;
+}
+
+.hideButton {
+    color: #5D2A42;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #FCB1A6;
+    border: solid #FB6376 1px;
+    width: fit-content;
+    height: fit-content; 
+    text-align: center;
+    font-size: 25px;
+    cursor: pointer;
+    position: fixed;
+    border-radius: 10px;
+    transition: all .2s;
+    left: 390px;
+}
+
+.hideButtonLeft {
+    color: #5D2A42;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #FCB1A6;
+    border: solid #FB6376 1px;
+    width: fit-content;
+    height: fit-content; 
+    text-align: center;
+    font-size: 25px;
+    cursor: pointer;
+    position: fixed;
+    border-radius: 10px;
+    transition: all .2s;
+    left: 10px;
+}
+
+.hideButton:hover {
+  color: #FB6376;
+  box-shadow: 0 3px 15px #FB6376;
+}
+
+.hideButtonLeft:hover {
+  color: #FB6376;
+  box-shadow: 0 3px 15px #FB6376;
+}
+
+.addButton:hover {
+  color: #FB6376;
+  box-shadow: 0 3px 15px #FB6376;
+}
+
+.invisible {
+    display: none;
+}
+
+.bookmarkList {
+    border: none;
+}
